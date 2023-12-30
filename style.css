@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .box{
     height: 10rem;
     width: 15rem;
@@ -10,7 +15,27 @@
     align-items: flex-start;
     position: relative;
 }
+
 .buttons{
     position: absolute;
     bottom: 0;
+}
+
+#random {
+    display: none;
+    height: 15rem;
+    width: 10rem;
+    background-image: url(cute.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding: .3rem;
+}
+
+#next{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    margin: 0;
 }
