@@ -1,0 +1,16 @@
+.box{
+    height: 10rem;
+    width: 15rem;
+    background-image: url(opening.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+.buttons{
+    position: absolute;
+    bottom: 0;
+}
