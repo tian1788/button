@@ -40,7 +40,7 @@
     height: 15rem;
     width: 10rem;
     background-image: url(cute.gif);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;

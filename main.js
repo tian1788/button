@@ -5,8 +5,8 @@ const positions = ["10rem 0 7.5rem 5rem", "7.5rem 0 20rem 2rem", "8rem 0 7.5rem 
 let random = document.getElementById("random");
 let text = document.getElementById("text");
 let next = document.getElementById("next");
-let message = ["basta message 1", "basta message2", "basta message 3"];
-let slideshow = ["url(qt.gif)", "url(tulog.gif)", "url(here.gif)"];
+let message = ["HAPPY NEW YEAR", "Ikaw  parin sa 2023 kala mo dyan HAHAHAHA", "Wag mo naman ako laging tulugan anteh kawawa naman ako dito nangunguila sayo HAHAHAHAHA(Daig pa pusa matulog amp)", "Im always here lang ah, alam ko minsan wala ka sa mood makipag usap pero wag mong kalimutan na hindi kana nag iisa laging akong nandito makikinig sa kahit anong problema mo ", "Flowers for you(virtual flowers muna anteh HAHAHAHA)", "Ganda mo alwaysss(lalo nung mata mo hayss ganda mo HAHAHAHA)", "thanks hindi mo lang alam gaano ko na appreciate yung presence lalo nung may problema ako HAHAHAHA", "Wala namang nagbago sa feelings ko sayo with or without chance im always here parin(Confess agad sa 2024 HAHAHAHAHA)"];
+let slideshow = ["url(bye.gif)", "url(qt.gif)", "url(tulog.gif)", "url(here.gif)", "url(bulaklak.gif)", "url(gandamo.gif)", "url(thanks.gif)", "url(lu.gif)"];
 let noAlert = ["bat no?", "sure ka naba?","sure na talaga?", "ayaw mo mag yes?!"];
 
 let count = 0;
@@ -28,11 +28,13 @@ no.addEventListener("click", ()=> {
 });
 
 yes.addEventListener("click", ()=> {
+    alert("Yieeeee pinindot HAHAHAHAHA");
     box.style.display = "none";
     random.style.display = "block";
     text.style.display = "block";
     text.innerHTML = message[count];
     random.style.backgroundImage = slideshow[count];
+    
 });
 
 next.addEventListener("click", ()=> {
@@ -46,8 +48,4 @@ next.addEventListener("click", ()=> {
         text.innerHTML = message[count];
         random.style.backgroundImage = slideshow[count];
     }
-
 });
-
-
-
