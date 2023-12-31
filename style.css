@@ -1,9 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .box{
+    transform: scale(1.5);
+    margin: 15rem auto 0 ;
     height: 10rem;
     width: 15rem;
     background-image: url(opening.gif);
@@ -19,6 +22,17 @@
 .buttons{
     position: absolute;
     bottom: 0;
+    padding: .2rem 0;
+}
+
+.buttons > button {
+    font-size: 1.12rem;
+    padding: .2rem;
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(243, 138, 156);
+    border-radius: 3px;
+    
 }
 
 #random {
@@ -31,11 +45,35 @@
     background-position: center;
     position: relative;
     padding: .3rem;
+    margin: 0 auto ;
 }
 
 #next{
+    color: #333;
+    font-weight: 600;
+    font-size: 2.2rem;
+    padding: .2rem;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: rgba(200, 200, 200, .5);
     position: absolute;
     bottom: 0;
     display: block;
     margin: 0;
+}
+
+.opening{
+    color: white;
+}
+
+#text {
+    display: none;
+    text-align: center;
+    background-color: rgba(55, 55, 55, .3);
+    padding: 2rem 0;
+    border: 2px solid white;
+    border-radius: .325rem;
+    width: 80%;
+    box-shadow: 2px 2px 3px black;
+    margin: 2rem auto 0;
 }
